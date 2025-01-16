@@ -1,0 +1,91 @@
+/* Style général pour le body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-menu{
+    text-align: end;
+    margin: 10px;
+}
+
+.header-menu a{
+    color: white;
+}
+
+/* En-tête */
+h1 {
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+/* Style pour la table */
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des cellules de l'en-tête */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Style des cellules du corps */
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Lignes paires de la table avec un fond légèrement coloré */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Effet au survol des lignes */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style de la première cellule (Marque) */
+td:first-child {
+    font-weight: bold;
+}
+
+/* Lien dans la table (si tu en utilises) */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive : Ajustement de la table pour les petits écrans */
+@media (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
