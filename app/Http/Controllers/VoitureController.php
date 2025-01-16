@@ -10,6 +10,7 @@ class VoitureController extends Controller
 {
     public function index()
     {
+        //test
         $voitures = Voiture::all();
         $auth = false;
 
